@@ -17,6 +17,9 @@ resized_image = original_image.resize((270, 400))
 button_image = ImageTk.PhotoImage(resized_image)
 
 image_button = tk.Button(sakuma_skats, image=button_image, borderwidth=0, bg="#c0d099", activebackground="#c0d099", command=lambda: print("Poga nospiesta!"))
-image_button.pack(pady=50)
+image_button.pack(pady=30)
+
+teksts_zem_pogas = tk.Label(sakuma_skats, text="Klikšķini uz tirdzniecības automāta, lai sāktu", font=("Verdana", 16), fg="#b90843", bg="#c0d099")
+teksts_zem_pogas.pack(pady=10)
 
 window.mainloop()
