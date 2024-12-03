@@ -8,6 +8,12 @@ def paradit_tirdzniecibas_skatu():
 def lokacijas_poga():
     print("Lokācijas poga nospiesta!")
 
+def instrukcijas_poga():
+    print("Instrukcijas poga nospiesta!")
+
+def norekinasanas_poga():
+    print("Norēķināšanās poga nospiesta!")
+
 window = tk.Tk()
 window.title("Informatīvā programma FISHING24-7 tirdzniecības automātiem")
 window.geometry("1150x700")
@@ -36,9 +42,15 @@ font=("Verdana", 14),
 fg="#b90843", 
 bg="#c0d099", 
 wraplength=600, justify="left", anchor="e")
-tirdzniecibas_teksts.pack(pady=30, padx=30, anchor="e")
+tirdzniecibas_teksts.pack(pady=50, padx=30, anchor="e")
 
 lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 12), fg="#b90843", bg="white", command=lokacijas_poga)
-lokacijas_poga.pack(pady=(0, 20), anchor="e", padx=100) 
+lokacijas_poga.pack(pady=(30), anchor="e", padx=100) 
+
+instrukcijas_poga = tk.Button(tirdzniecibas_skats, text="Lietošanas instrukcija", font=("Verdana", 12), fg="#b90843", bg="white", command=instrukcijas_poga)
+instrukcijas_poga.pack(pady=(30), anchor="e", padx=300) 
+
+norekinasanas_poga = tk.Button(tirdzniecibas_skats, text="Iespējamie norēķināšanās veidi", font=("Verdana", 12), fg="#b90843", bg="white", command=norekinasanas_poga)
+norekinasanas_poga.pack(pady=(30), anchor="e", padx=220) 
 
 window.mainloop()
