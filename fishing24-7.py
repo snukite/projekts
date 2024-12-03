@@ -60,7 +60,46 @@ norekinasanas_poga.pack(pady=(30), anchor="e", padx=240)
 
 lokacijas_skats = tk.Frame(window, bg="#c0d099")
 
+lokacijas_virsraksts = tk.Label(lokacijas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 22, "bold"), fg="#b90843", bg="#c0d099")
+lokacijas_virsraksts.grid(row=0, column=0, columnspan=2, pady=20)
+
+lokacijas_teksts1 = tk.Label(lokacijas_skats, text="Siguldā, Strēlnieku ielā 2 - T/C Šokolāde ēkas ziemeļu pusē, pie B ieejas", 
+font=("Verdana", 12), 
+fg="black", 
+bg="#c0d099", 
+wraplength=500, justify="left", anchor="w")
+lokacijas_teksts1.grid(row=1, column=0, padx=30, pady=10, sticky="w")
+
+lokacijas_teksts2 = tk.Label(lokacijas_skats, text="Rīgā, Brīvības gatvē 404 - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam ", 
+font=("Verdana", 12), 
+fg="black", 
+bg="#c0d099", 
+wraplength=500, justify="left", anchor="w")
+lokacijas_teksts2.grid(row=2, column=0, padx=30, pady=10, sticky="w")
+
+lokacijas_teksts3 = tk.Label(lokacijas_skats, text="Rīgā, Vaidavas ielā 9B - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam ", 
+font=("Verdana", 12), 
+fg="black", 
+bg="#c0d099", 
+wraplength=500, justify="left", anchor="w")
+lokacijas_teksts3.grid(row=3, column=0, padx=30, pady=10, sticky="w")
+
+lokacijas_teksts4 = tk.Label(lokacijas_skats, text="Rīgā, Latgales ielā 256B - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam", 
+font=("Verdana", 12), 
+fg="black", 
+bg="#c0d099", 
+wraplength=500, justify="left", anchor="w")
+lokacijas_teksts4.grid(row=1, column=1, padx=30, pady=10, sticky="w")
+
+lokacijas_teksts5 = tk.Label(lokacijas_skats, text="Rīgā, Kalnciema ielā 41 - pa labi no veikala \"Mini Rimi\" ieejas, blakus SEB bankomātam", 
+font=("Verdana", 12), 
+fg="black", 
+bg="#c0d099", 
+wraplength=500, justify="left", anchor="w")
+lokacijas_teksts5.grid(row=2, column=1, padx=30, pady=10, sticky="w")
+
 atpakal_poga = tk.Button(lokacijas_skats, text="Atpakaļ", font=("Verdana", 14), fg="#b90843", bg="white", command=atpakal)
-atpakal_poga.pack(side="bottom", anchor="e", padx=30, pady=30)
+atpakal_poga.grid(row=3, column=1, pady=20)
+
 
 window.mainloop()
