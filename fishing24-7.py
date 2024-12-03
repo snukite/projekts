@@ -2,17 +2,22 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 def paradit_tirdzniecibas_skatu():
-    sakuma_skats.pack_forget()  # Paslēpj sākuma skatu
+    sakuma_skats.pack_forget()  
     tirdzniecibas_skats.pack(fill='both', expand=True)
 
 def lokacijas_poga():
-    print("Lokācijas poga nospiesta!")
+    tirdzniecibas_skats.pack_forget()
+    lokacijas_skats.pack(fill='both', expand=True)
 
 def instrukcijas_poga():
     print("Instrukcijas poga nospiesta!")
 
 def norekinasanas_poga():
     print("Norēķināšanās poga nospiesta!")
+
+def atpakal():
+    lokacijas_skats.pack_forget()
+    tirdzniecibas_skats.pack(fill='both', expand=True)
 
 window = tk.Tk()
 window.title("Informatīvā programma FISHING24-7 tirdzniecības automātiem")
@@ -44,13 +49,18 @@ bg="#c0d099",
 wraplength=600, justify="left", anchor="e")
 tirdzniecibas_teksts.pack(pady=50, padx=30, anchor="e")
 
-lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 12), fg="#b90843", bg="white", command=lokacijas_poga)
+lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 14), fg="#b90843", bg="white", command=lokacijas_poga)
 lokacijas_poga.pack(pady=(30), anchor="e", padx=100) 
 
-instrukcijas_poga = tk.Button(tirdzniecibas_skats, text="Lietošanas instrukcija", font=("Verdana", 12), fg="#b90843", bg="white", command=instrukcijas_poga)
-instrukcijas_poga.pack(pady=(30), anchor="e", padx=300) 
+instrukcijas_poga = tk.Button(tirdzniecibas_skats, text="Lietošanas instrukcija", font=("Verdana", 14), fg="#b90843", bg="white", command=instrukcijas_poga)
+instrukcijas_poga.pack(pady=(30), anchor="e", padx=335) 
 
-norekinasanas_poga = tk.Button(tirdzniecibas_skats, text="Iespējamie norēķināšanās veidi", font=("Verdana", 12), fg="#b90843", bg="white", command=norekinasanas_poga)
-norekinasanas_poga.pack(pady=(30), anchor="e", padx=220) 
+norekinasanas_poga = tk.Button(tirdzniecibas_skats, text="Iespējamie norēķināšanās veidi", font=("Verdana", 14), fg="#b90843", bg="white", command=norekinasanas_poga)
+norekinasanas_poga.pack(pady=(30), anchor="e", padx=240) 
+
+lokacijas_skats = tk.Frame(window, bg="#c0d099")
+
+atpakal_poga = tk.Button(lokacijas_skats, text="Atpakaļ", font=("Verdana", 14), fg="#b90843", bg="white", command=atpakal)
+atpakal_poga.pack(side="bottom", anchor="e", padx=30, pady=30)
 
 window.mainloop()
