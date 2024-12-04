@@ -60,52 +60,75 @@ norekinasanas_poga.pack(pady=(30), anchor="e", padx=240)
 
 lokacijas_skats = tk.Frame(window, bg="#c0d099")
 
-lokacijas_virsraksts = tk.Label(lokacijas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 22, "bold"), fg="#b90843", bg="#c0d099")
-lokacijas_virsraksts.grid(row=0, column=0, columnspan=2, pady=20)
+lokacijas_virsraksts = tk.Label(lokacijas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 18, "bold"), fg="#b90843", bg="#c0d099")
+lokacijas_virsraksts.grid(row=0, column=0, columnspan=2, pady=10)
 
-lokacijas_teksts1 = tk.Label(lokacijas_skats, text="Siguldā, Strēlnieku ielā 2 - T/C Šokolāde ēkas ziemeļu pusē, pie B ieejas", 
+lokacijas_teksts1 = tk.Label(lokacijas_skats, text="1. Siguldā, Strēlnieku ielā 2 - T/C Šokolāde ēkas ziemeļu pusē, pie B ieejas", 
 font=("Verdana", 12), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
-lokacijas_teksts1.grid(row=1, column=0, padx=30, pady=5, sticky="w")
+lokacijas_teksts1.grid(row=1, column=0, padx=30, pady=1, sticky="w")
 
 image_path = "sigulda.png" 
-image = Image.open(image_path).resize((400, 170))  
+image = Image.open(image_path).resize((400, 135))  
 photo = ImageTk.PhotoImage(image)
 lokacijas_attels = tk.Label(lokacijas_skats, image=photo, bg="#c0d099")
-lokacijas_attels.grid(row=2, column=0, padx=30, pady=5, sticky="w")
+lokacijas_attels.grid(row=2, column=0, padx=30, pady=1, sticky="w")
 
-lokacijas_teksts2 = tk.Label(lokacijas_skats, text="Rīgā, Brīvības gatvē 404 - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam ", 
+lokacijas_teksts2 = tk.Label(lokacijas_skats, text="2. Rīgā, Brīvības gatvē 404 - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam ", 
 font=("Verdana", 12), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
-lokacijas_teksts2.grid(row=3, column=0, padx=30, pady=10, sticky="w")
+lokacijas_teksts2.grid(row=3, column=0, padx=30, pady=1, sticky="w")
 
-lokacijas_teksts3 = tk.Label(lokacijas_skats, text="Rīgā, Vaidavas ielā 9B - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam ", 
+image_path2 = "brivibas.png" 
+image2 = Image.open(image_path2).resize((400, 135))  
+photo2 = ImageTk.PhotoImage(image2)
+lokacijas_attels2 = tk.Label(lokacijas_skats, image=photo2, bg="#c0d099")
+lokacijas_attels2.grid(row=4, column=0, padx=30, pady=1, sticky="w")
+
+lokacijas_teksts3 = tk.Label(lokacijas_skats, text="3. Rīgā, Vaidavas ielā 9B - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam ", 
 font=("Verdana", 12), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
-lokacijas_teksts3.grid(row=4, column=0, padx=30, pady=10, sticky="w")
+lokacijas_teksts3.grid(row=5, column=0, padx=30, pady=10, sticky="w")
 
-lokacijas_teksts4 = tk.Label(lokacijas_skats, text="Rīgā, Latgales ielā 256B - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam", 
+image_path3 = "vaidavas.png" 
+image3 = Image.open(image_path3).resize((400, 135))  
+photo3 = ImageTk.PhotoImage(image3)
+lokacijas_attels3 = tk.Label(lokacijas_skats, image=photo3, bg="#c0d099")
+lokacijas_attels3.grid(row=6, column=0, padx=30, pady=1, sticky="w")
+
+lokacijas_teksts4 = tk.Label(lokacijas_skats, text="4. Rīgā, Latgales ielā 256B - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam", 
 font=("Verdana", 12), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
 lokacijas_teksts4.grid(row=1, column=1, padx=30, pady=10, sticky="w")
 
-lokacijas_teksts5 = tk.Label(lokacijas_skats, text="Rīgā, Kalnciema ielā 41 - pa labi no veikala \"Mini Rimi\" ieejas, blakus SEB bankomātam", 
+image_path4 = "latgales.png" 
+image4 = Image.open(image_path4).resize((400, 135))  
+photo4 = ImageTk.PhotoImage(image4)
+lokacijas_attels4 = tk.Label(lokacijas_skats, image=photo4, bg="#c0d099")
+lokacijas_attels4.grid(row=2, column=1, padx=30, pady=1, sticky="w")
+
+lokacijas_teksts5 = tk.Label(lokacijas_skats, text="5. Rīgā, Kalnciema ielā 41 - pa labi no veikala \"Mini Rimi\" ieejas, blakus SEB bankomātam", 
 font=("Verdana", 12), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
-lokacijas_teksts5.grid(row=2, column=1, padx=30, pady=10, sticky="w")
+lokacijas_teksts5.grid(row=3, column=1, padx=30, pady=10, sticky="w")
+
+image_path5 = "kalnciema.png" 
+image5 = Image.open(image_path5).resize((400, 135))  
+photo5 = ImageTk.PhotoImage(image5)
+lokacijas_attels5 = tk.Label(lokacijas_skats, image=photo5, bg="#c0d099")
+lokacijas_attels5.grid(row=4, column=1, padx=30, pady=1, sticky="w")
 
 atpakal_poga = tk.Button(lokacijas_skats, text="Atpakaļ", font=("Verdana", 14), fg="#b90843", bg="white", command=atpakal)
-atpakal_poga.grid(row=3, column=1, pady=20)
-
+atpakal_poga.grid(row=6, column=1, sticky="se")
 
 window.mainloop()
