@@ -10,7 +10,22 @@ def lokacijas_poga():
     lokacijas_skats.pack(fill='both', expand=True)
 
 def instrukcijas_poga():
-    print("Instrukcijas poga nospiesta!")
+    instrukcijas_logs = tk.Toplevel(window)
+    instrukcijas_logs.title("Lietošanas instrukcija")
+    instrukcijas_logs.geometry("453x640")
+    instrukcijas_logs.resizable(False, False)
+    instrukcijas_logs.configure(bg="#c0d099")
+
+    instrukcijas_attels_path = "instrukcija.png" 
+    instrukcijas_image = Image.open(instrukcijas_attels_path)
+    instrukcijas_photo = ImageTk.PhotoImage(instrukcijas_image)
+
+    attels_label = tk.Label(instrukcijas_logs, image=instrukcijas_photo, bg="#c0d099")
+    attels_label.image = instrukcijas_photo  
+    attels_label.pack()
+
+    aizvert_poga = tk.Button(instrukcijas_logs, text="Aizvērt", font=("Verdana", 14), fg="#b90843", bg="white", command=instrukcijas_logs.destroy)
+    aizvert_poga.place(x=330, y=580)
 
 def norekinasanas_poga():
     print("Norēķināšanās poga nospiesta!")
