@@ -79,6 +79,15 @@ bg="#c0d099",
 wraplength=600, justify="left", anchor="e")
 tirdzniecibas_teksts.pack(pady=50, padx=30, anchor="e")
 
+tirdzniecibas_attels_path = "plaukti.png"  
+original_image = Image.open(tirdzniecibas_attels_path)
+resized_image = original_image.resize((488, 635))  
+tirdzniecibas_photo = ImageTk.PhotoImage(resized_image)
+
+tirdzniecibas_attels_label = tk.Label(tirdzniecibas_skats, image=tirdzniecibas_photo, bg="#c0d099")
+tirdzniecibas_attels_label.image = tirdzniecibas_photo
+tirdzniecibas_attels_label.place(x=20, y=30) 
+
 lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 14), fg="#b90843", bg="white", command=lokacijas_poga)
 lokacijas_poga.pack(pady=(30), anchor="e", padx=100) 
 
