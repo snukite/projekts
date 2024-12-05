@@ -115,6 +115,21 @@ plaukta_poga15.place(x=205, y=152)
 plaukta_poga17 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
 plaukta_poga17.place(x=272, y=152)
 
+plaukta_poga22 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga22.place(x=70, y=220)
+
+plaukta_poga23 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga23.place(x=124, y=220)
+
+plaukta_poga24 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga24.place(x=176, y=220)
+
+plaukta_poga25 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga25.place(x=230, y=220)
+
+plaukta_poga26 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga26.place(x=284, y=220)
+
 lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 14), fg="#b90843", bg="white", command=lokacijas_poga)
 lokacijas_poga.pack(pady=(30), anchor="e", padx=100) 
 
