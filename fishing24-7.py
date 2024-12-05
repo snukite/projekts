@@ -130,6 +130,78 @@ plaukta_poga25.place(x=230, y=220)
 plaukta_poga26 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
 plaukta_poga26.place(x=284, y=220)
 
+plaukta_poga31 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga31.place(x=67, y=285)
+
+plaukta_poga32 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga32.place(x=112, y=285)
+
+plaukta_poga33 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga33.place(x=157, y=285)
+
+plaukta_poga34 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga34.place(x=202, y=285)
+
+plaukta_poga35 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga35.place(x=247, y=285)
+
+plaukta_poga36 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga36.place(x=292, y=285)
+
+plaukta_poga41 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga41.place(x=67, y=338)
+
+plaukta_poga42 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga42.place(x=97, y=338)
+
+plaukta_poga43 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga43.place(x=127, y=338)
+
+plaukta_poga44 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga44.place(x=157, y=338)
+
+plaukta_poga45 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga45.place(x=187, y=338)
+
+plaukta_poga46 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga46.place(x=217, y=338)
+
+plaukta_poga47 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga47.place(x=247, y=338)
+
+plaukta_poga48 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga48.place(x=277, y=338)
+
+plaukta_poga49 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga49.place(x=307, y=338)
+
+plaukta_poga51 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga51.place(x=67, y=384)
+
+plaukta_poga52 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga52.place(x=97, y=384)
+
+plaukta_poga53 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga53.place(x=127, y=384)
+
+plaukta_poga54 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga54.place(x=157, y=384)
+
+plaukta_poga55 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga55.place(x=187, y=384)
+
+plaukta_poga56 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga56.place(x=217, y=384)
+
+plaukta_poga57 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga57.place(x=247, y=384)
+
+plaukta_poga58 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga58.place(x=277, y=384)
+
+plaukta_poga59 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga59.place(x=307, y=384)
+
 lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 14), fg="#b90843", bg="white", command=lokacijas_poga)
 lokacijas_poga.pack(pady=(30), anchor="e", padx=100) 
 
@@ -145,7 +217,7 @@ lokacijas_virsraksts = tk.Label(lokacijas_skats, text="FISHING24-7 tirdzniecība
 lokacijas_virsraksts.grid(row=0, column=0, columnspan=2, pady=10)
 
 lokacijas_teksts1 = tk.Label(lokacijas_skats, text="1. Siguldā, Strēlnieku ielā 2 - T/C Šokolāde ēkas ziemeļu pusē, pie B ieejas", 
-font=("Verdana", 12), 
+font=("Verdana", 12, "bold"), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
@@ -158,7 +230,7 @@ lokacijas_attels = tk.Label(lokacijas_skats, image=photo, bg="#c0d099")
 lokacijas_attels.grid(row=2, column=0, padx=30, pady=1, sticky="w")
 
 lokacijas_teksts2 = tk.Label(lokacijas_skats, text="2. Rīgā, Brīvības gatvē 404 - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam ", 
-font=("Verdana", 12), 
+font=("Verdana", 12, "bold"), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
@@ -171,7 +243,7 @@ lokacijas_attels2 = tk.Label(lokacijas_skats, image=photo2, bg="#c0d099")
 lokacijas_attels2.grid(row=4, column=0, padx=30, pady=1, sticky="w")
 
 lokacijas_teksts3 = tk.Label(lokacijas_skats, text="3. Rīgā, Vaidavas ielā 9B - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam ", 
-font=("Verdana", 12), 
+font=("Verdana", 12, "bold"), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
@@ -184,7 +256,7 @@ lokacijas_attels3 = tk.Label(lokacijas_skats, image=photo3, bg="#c0d099")
 lokacijas_attels3.grid(row=6, column=0, padx=30, pady=1, sticky="w")
 
 lokacijas_teksts4 = tk.Label(lokacijas_skats, text="4. Rīgā, Latgales ielā 256B - pa kreisi no veikala \"Mini Rimi\" ieejas, blakus Omniva pakomātam", 
-font=("Verdana", 12), 
+font=("Verdana", 12, "bold"), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
@@ -197,7 +269,7 @@ lokacijas_attels4 = tk.Label(lokacijas_skats, image=photo4, bg="#c0d099")
 lokacijas_attels4.grid(row=2, column=1, padx=30, pady=1, sticky="w")
 
 lokacijas_teksts5 = tk.Label(lokacijas_skats, text="5. Rīgā, Kalnciema ielā 41 - pa labi no veikala \"Mini Rimi\" ieejas, blakus SEB bankomātam", 
-font=("Verdana", 12), 
+font=("Verdana", 12, "bold"), 
 fg="black", 
 bg="#c0d099", 
 wraplength=500, justify="left", anchor="w")
