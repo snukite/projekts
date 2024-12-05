@@ -28,7 +28,22 @@ def instrukcijas_poga():
     aizvert_poga.place(x=330, y=580)
 
 def norekinasanas_poga():
-    print("Norēķināšanās poga nospiesta!")
+    norekinasanas_logs = tk.Toplevel(window)
+    norekinasanas_logs.title("Lietošanas instrukcija")
+    norekinasanas_logs.geometry("872x540")
+    norekinasanas_logs.resizable(False, False)
+    norekinasanas_logs.configure(bg="#c0d099")
+
+    norekinasanas_attels_path = "norekinasanas.png" 
+    norekinasanas_image = Image.open(norekinasanas_attels_path)
+    norekinasanas_photo = ImageTk.PhotoImage(norekinasanas_image)
+
+    attels_label2 = tk.Label(norekinasanas_logs, image=norekinasanas_photo, bg="#c0d099")
+    attels_label2.image = norekinasanas_photo  
+    attels_label2.pack()
+
+    aizvert_poga = tk.Button(norekinasanas_logs, text="Aizvērt", font=("Verdana", 14), fg="#b90843", bg="white", command=norekinasanas_logs.destroy)
+    aizvert_poga.place(x=740, y=470)
 
 def atpakal():
     lokacijas_skats.pack_forget()
@@ -43,14 +58,14 @@ window.configure(bg="#c0d099")
 sakuma_skats = tk.Frame(window,bg="#c0d099")
 sakuma_skats.pack(fill='both', expand=True)
 uzraksts = tk.Label(sakuma_skats, text="FISHING24-7", font=("Verdana", 30, "bold"), fg="#b90843", bg="#c0d099")
-uzraksts.pack(pady=30)
+uzraksts.pack(pady=20)
 
 original_image = Image.open("automats.png")
-resized_image = original_image.resize((270, 400)) 
+resized_image = original_image.resize((324, 480)) 
 button_image = ImageTk.PhotoImage(resized_image)
 
 image_button = tk.Button(sakuma_skats, image=button_image, borderwidth=0, bg="#c0d099", activebackground="#c0d099", command=paradit_tirdzniecibas_skatu)
-image_button.pack(pady=30)
+image_button.pack(pady=5)
 
 teksts_zem_pogas = tk.Label(sakuma_skats, text="Klikšķini uz tirdzniecības automāta, lai sāktu", font=("Verdana", 16), fg="#b90843", bg="#c0d099")
 teksts_zem_pogas.pack(pady=10)
