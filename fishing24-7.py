@@ -27,13 +27,13 @@ def instrukcijas_poga():
     attels_label.image = instrukcijas_photo  
     attels_label.pack()
 
-    aizvert_poga = tk.Button(instrukcijas_logs, text="Aizvērt", font=("Verdana", 14), fg="#b90843", bg="white", command=instrukcijas_logs.destroy)
+    aizvert_poga = tk.Button(instrukcijas_logs, text="Aizvērt", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=0, command=instrukcijas_logs.destroy)
     aizvert_poga.place(x=330, y=580)
 
 def norekinasanas_poga():
     norekinasanas_logs = tk.Toplevel(window)
-    norekinasanas_logs.title("Lietošanas instrukcija")
-    norekinasanas_logs.geometry("872x540")
+    norekinasanas_logs.title("Norēķināšanās veidi")
+    norekinasanas_logs.geometry("872x491")
     norekinasanas_logs.resizable(False, False)
     norekinasanas_logs.configure(bg="#c0d099")
 
@@ -45,8 +45,8 @@ def norekinasanas_poga():
     attels_label2.image = norekinasanas_photo  
     attels_label2.pack()
 
-    aizvert_poga = tk.Button(norekinasanas_logs, text="Aizvērt", font=("Verdana", 14), fg="#b90843", bg="white", command=norekinasanas_logs.destroy)
-    aizvert_poga.place(x=740, y=470)
+    aizvert_poga = tk.Button(norekinasanas_logs, text="Aizvērt", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=2, command=norekinasanas_logs.destroy)
+    aizvert_poga.place(x=755, y=430)
 
 def atpakal():
     lokacijas_skats.pack_forget()
@@ -91,10 +91,33 @@ tirdzniecibas_attels_label = tk.Label(tirdzniecibas_skats, image=tirdzniecibas_p
 tirdzniecibas_attels_label.image = tirdzniecibas_photo
 tirdzniecibas_attels_label.place(x=20, y=30) 
 
-plaukta_poga1 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+def paradit_plaukta_saturu(teksts, attels_path):
+    
+    tirdzniecibas_skats.pack_forget()
+
+    plaukta_skats = tk.Frame(window, bg="#c0d099")
+    plaukta_skats.pack(fill='both', expand=True)
+
+    plaukta_frame = tk.Frame(plaukta_skats, bg="#c0d099")
+    plaukta_frame.pack(pady=20)
+
+    attels_image = Image.open(attels_path).resize((300, 300))  # Attēla izmērs
+    attels_photo = ImageTk.PhotoImage(attels_image)
+    attels_label = tk.Label(plaukta_frame, image=attels_photo, bg="#c0d099")
+    attels_label.image = attels_photo
+    attels_label.pack(side="left", padx=20)
+
+    plaukta_teksts = tk.Label(plaukta_frame, text=teksts, font=("Verdana", 14), fg="#b90843", bg="#c0d099", wraplength=600, justify="left")
+    plaukta_teksts.pack(side="right")
+
+    atpakal_poga = tk.Button(plaukta_skats, text="Atpakaļ", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=0, command=lambda: [plaukta_skats.pack_forget(), tirdzniecibas_skats.pack(fill='both', expand=True)])
+    atpakal_poga.pack(pady=20)
+
+
+plaukta_poga1 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 1.", "plaukts1.jpg"))
 plaukta_poga1.place(x=75, y=90)
 
-plaukta_poga3 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga3 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0,command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 2.", "plaukts3.jpg"))
 plaukta_poga3.place(x=140, y=90)
 
 plaukta_poga5 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
@@ -202,13 +225,13 @@ plaukta_poga58.place(x=277, y=384)
 plaukta_poga59 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
 plaukta_poga59.place(x=307, y=384)
 
-lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 14), fg="#b90843", bg="white", command=lokacijas_poga)
+lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=0, command=lokacijas_poga)
 lokacijas_poga.pack(pady=(30), anchor="e", padx=100) 
 
-instrukcijas_poga = tk.Button(tirdzniecibas_skats, text="Lietošanas instrukcija", font=("Verdana", 14), fg="#b90843", bg="white", command=instrukcijas_poga)
+instrukcijas_poga = tk.Button(tirdzniecibas_skats, text="Lietošanas instrukcija", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=0, command=instrukcijas_poga)
 instrukcijas_poga.pack(pady=(30), anchor="e", padx=335) 
 
-norekinasanas_poga = tk.Button(tirdzniecibas_skats, text="Iespējamie norēķināšanās veidi", font=("Verdana", 14), fg="#b90843", bg="white", command=norekinasanas_poga)
+norekinasanas_poga = tk.Button(tirdzniecibas_skats, text="Iespējamie norēķināšanās veidi", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=0, command=norekinasanas_poga)
 norekinasanas_poga.pack(pady=(30), anchor="e", padx=240) 
 
 lokacijas_skats = tk.Frame(window, bg="#c0d099")
@@ -281,7 +304,7 @@ photo5 = ImageTk.PhotoImage(image5)
 lokacijas_attels5 = tk.Label(lokacijas_skats, image=photo5, bg="#c0d099")
 lokacijas_attels5.grid(row=4, column=1, padx=30, pady=1, sticky="w")
 
-atpakal_poga = tk.Button(lokacijas_skats, text="Atpakaļ", font=("Verdana", 14), fg="#b90843", bg="white", command=atpakal)
+atpakal_poga = tk.Button(lokacijas_skats, text="Atpakaļ", font=("Verdana", 14), fg="#b90843", bg="white",  borderwidth=0, command=atpakal)
 atpakal_poga.grid(row=6, column=1, sticky="se")
 
 window.mainloop()
