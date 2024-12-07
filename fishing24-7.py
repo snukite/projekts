@@ -101,7 +101,7 @@ def paradit_plaukta_saturu(teksts, attels_path):
     plaukta_frame = tk.Frame(plaukta_skats, bg="#c0d099")
     plaukta_frame.pack(pady=20)
 
-    attels_image = Image.open(attels_path).resize((300, 300))  # Attēla izmērs
+    attels_image = Image.open(attels_path).resize((350, 600))  
     attels_photo = ImageTk.PhotoImage(attels_image)
     attels_label = tk.Label(plaukta_frame, image=attels_photo, bg="#c0d099")
     attels_label.image = attels_photo
@@ -114,28 +114,28 @@ def paradit_plaukta_saturu(teksts, attels_path):
     atpakal_poga.pack(pady=20)
 
 
-plaukta_poga1 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 1.", "plaukts1.jpg"))
+plaukta_poga1 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 1.", "bigcarp_kuku.png"))
 plaukta_poga1.place(x=75, y=90)
 
-plaukta_poga3 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0,command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 2.", "plaukts3.jpg"))
+plaukta_poga3 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0,command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 3.", "bigcarp_zem.png"))
 plaukta_poga3.place(x=140, y=90)
 
-plaukta_poga5 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga5 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 5.", "sekrbreksis.png"))
 plaukta_poga5.place(x=205, y=90)
 
-plaukta_poga7 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga7 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 7.", "sekrlinkar.png"))
 plaukta_poga7.place(x=272, y=90)
 
-plaukta_poga11 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga11 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 11.", "speclinkar.png"))
 plaukta_poga11.place(x=75, y=152)
 
-plaukta_poga13 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga13 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 13.", "specuni.png"))
 plaukta_poga13.place(x=140, y=152)
 
-plaukta_poga15 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga15 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 15.", "specfeeder.png"))
 plaukta_poga15.place(x=205, y=152)
 
-plaukta_poga17 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga17 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 17.", "specbrek.png"))
 plaukta_poga17.place(x=272, y=152)
 
 plaukta_poga22 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
