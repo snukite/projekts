@@ -153,22 +153,22 @@ plaukta_poga25.place(x=230, y=220)
 plaukta_poga26 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 26.", "breksis750.png"))
 plaukta_poga26.place(x=284, y=220)
 
-plaukta_poga31 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga31 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 31.", "waftersource.png"))
 plaukta_poga31.place(x=67, y=285)
 
-plaukta_poga32 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga32 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 32.", "waftertignut.png"))
 plaukta_poga32.place(x=112, y=285)
 
-plaukta_poga33 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga33 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 33.", "naktstarpi.png"))
 plaukta_poga33.place(x=157, y=285)
 
-plaukta_poga34 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga34 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 34.", "graudumix.png"))
 plaukta_poga34.place(x=202, y=285)
 
-plaukta_poga35 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga35 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 35.", "fluomix.png"))
 plaukta_poga35.place(x=247, y=285)
 
-plaukta_poga36 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
+plaukta_poga36 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 36.", "fluozala.png"))
 plaukta_poga36.place(x=292, y=285)
 
 plaukta_poga41 = tk.Button(tirdzniecibas_skats, text="Poga", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=plaukta_pogas)
