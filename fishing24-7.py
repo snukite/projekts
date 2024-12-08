@@ -123,26 +123,19 @@ def izveidot_attelu_pogu(skats, x, y, attela_nosaukums, komanda):
 
 izveidot_attelu_pogu(tirdzniecibas_skats, 85, 75, "bigcarp_kuku.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 1.", "bigcarp_kuku.png"))
 
-plaukta_poga3 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0,command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 3.", "bigcarp_zem.png"))
-plaukta_poga3.place(x=140, y=90)
+izveidot_attelu_pogu(tirdzniecibas_skats, 150, 75, "bigcarp_zem.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 3.", "bigcarp_zem.png"))
 
-plaukta_poga5 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 5.", "sekrbreksis.png"))
-plaukta_poga5.place(x=205, y=90)
+izveidot_attelu_pogu(tirdzniecibas_skats, 215, 75, "sekrbreksis.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 5.", "sekrbreksis.png"))
 
-plaukta_poga7 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 7.", "sekrlinkar.png"))
-plaukta_poga7.place(x=272, y=90)
+izveidot_attelu_pogu(tirdzniecibas_skats, 280, 75, "sekrlinkar.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 7.", "sekrlinkar.png"))
 
-plaukta_poga11 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 11.", "speclinkar.png"))
-plaukta_poga11.place(x=75, y=152)
+izveidot_attelu_pogu(tirdzniecibas_skats, 85, 134, "speclinkar.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 11.", "speclinkar.png"))
 
-plaukta_poga13 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 13.", "specuni.png"))
-plaukta_poga13.place(x=140, y=152)
+izveidot_attelu_pogu(tirdzniecibas_skats, 150, 134, "specuni.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 13.", "specuni.png"))
 
-plaukta_poga15 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 15.", "specfeeder.png"))
-plaukta_poga15.place(x=205, y=152)
+izveidot_attelu_pogu(tirdzniecibas_skats, 215, 134, "specfeeder.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 15.", "specfeeder.png"))
 
-plaukta_poga17 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 17.", "specbrek.png"))
-plaukta_poga17.place(x=272, y=152)
+izveidot_attelu_pogu(tirdzniecibas_skats, 280, 134, "specbrek.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 17.", "specbrek.png"))
 
 plaukta_poga22 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843", borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 22.", "universala750.png"))
 plaukta_poga22.place(x=70, y=220)
