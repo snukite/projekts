@@ -113,9 +113,15 @@ def paradit_plaukta_saturu(teksts, attels_path):
     atpakal_poga = tk.Button(plaukta_skats, text="Atpakaļ", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=0, command=lambda: [plaukta_skats.pack_forget(), tirdzniecibas_skats.pack(fill='both', expand=True)])
     atpakal_poga.pack(pady=20)
 
+def izveidot_attelu_pogu(skats, x, y, attela_nosaukums, komanda):
+    original_image = Image.open(attela_nosaukums)
+    resized_image = original_image.resize((28, 48))  
+    button_image = ImageTk.PhotoImage(resized_image)
+    poga = tk.Button(skats, image=button_image, borderwidth=0, bg="#e8e8e8", command=komanda)
+    poga.image = button_image  
+    poga.place(x=x, y=y)
 
-plaukta_poga1 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0, command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 1.", "bigcarp_kuku.png"))
-plaukta_poga1.place(x=75, y=90)
+izveidot_attelu_pogu(tirdzniecibas_skats, 85, 75, "bigcarp_kuku.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 1.", "bigcarp_kuku.png"))
 
 plaukta_poga3 = tk.Button(tirdzniecibas_skats, text="Poga!!!", font=("Verdana", 7), fg="white", bg="#b90843",  borderwidth=0,command=lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 3.", "bigcarp_zem.png"))
 plaukta_poga3.place(x=140, y=90)
