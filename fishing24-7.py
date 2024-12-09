@@ -199,23 +199,23 @@ izveidot_attelu_pogu2(tirdzniecibas_skats, 278, 326, "nr3.png", lambda: paradit_
 
 izveidot_attelu_pogu2(tirdzniecibas_skats, 309, 326, "nr3.png", lambda: paradit_plaukta_saturu("nr3.png", "Sliekas Nr.3", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 72, 375, "baltie.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 51.", "baltie.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 72, 375, "baltie.png", lambda: paradit_plaukta_saturu("baltie.png", "Baltie tārpi 50g", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 103, 375, "baltie.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 52.", "baltie.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 103, 375, "baltie.png", lambda: paradit_plaukta_saturu("baltie.png", "Baltie tārpi 50g", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 132, 375, "baltie.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 53.", "baltie.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 132, 375, "baltie.png", lambda: paradit_plaukta_saturu("baltie.png", "Baltie tārpi 50g", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 161, 375, "baltie.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 54.", "baltie.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 161, 375, "baltie.png", lambda: paradit_plaukta_saturu("baltie.png", "Baltie tārpi 50g", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 190, 375, "baltie.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 55.", "baltie.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 190, 375, "baltie.png", lambda: paradit_plaukta_saturu("baltie.png", "Baltie tārpi 50g", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 220, 375, "pinki.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 56.", "pinki.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 220, 375, "pinki.png", lambda: paradit_plaukta_saturu("pinki.png", "Pinki 50g", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 247, 375, "nr2.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 56.", "nr2.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 247, 375, "nr2.png", lambda: paradit_plaukta_saturu("nr2.png", "Sliekas Nr.2", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 278, 375, "nr2.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 57.", "nr2.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 278, 375, "nr2.png", lambda: paradit_plaukta_saturu("nr2.png", "Sliekas Nr.2", "2.00"))
 
-izveidot_attelu_pogu3(tirdzniecibas_skats, 309, 375, "nr2.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 58.", "nr2.png"))
+izveidot_attelu_pogu3(tirdzniecibas_skats, 309, 375, "nr2.png", lambda: paradit_plaukta_saturu("nr2.png", "Sliekas Nr.2", "2.00"))
 
 lokacijas_poga = tk.Button(tirdzniecibas_skats, text="FISHING24-7 tirdzniecības automātu lokācijas", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=0, command=lokacijas_poga)
 lokacijas_poga.pack(pady=(30), anchor="e", padx=100) 
