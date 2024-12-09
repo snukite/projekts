@@ -45,7 +45,7 @@ def norekinasanas_poga():
     attels_label2.image = norekinasanas_photo  
     attels_label2.pack()
 
-    aizvert_poga = tk.Button(norekinasanas_logs, text="Aizvērt", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=2, command=norekinasanas_logs.destroy)
+    aizvert_poga = tk.Button(norekinasanas_logs, text="Aizvērt", font=("Verdana", 14), fg="#b90843", bg="white", command=norekinasanas_logs.destroy)
     aizvert_poga.place(x=755, y=430)
 
 def atpakal():
