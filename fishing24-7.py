@@ -151,53 +151,53 @@ izveidot_attelu_pogu(tirdzniecibas_skats, 215, 75, "sekrbreksis.png", lambda: pa
 
 izveidot_attelu_pogu(tirdzniecibas_skats, 280, 75, "sekrlinkar.png", lambda: paradit_plaukta_saturu("sekrlinkar.png", "Sekr LīnKar Marc 1kg", "3.90"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 85, 134, "speclinkar.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 11.", "speclinkar.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 85, 134, "speclinkar.png", lambda: paradit_plaukta_saturu("speclinkar.png", "Spec LīnisKarūsa 1kg", "3.50"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 150, 134, "specuni.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 13.", "specuni.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 150, 134, "specuni.png", lambda: paradit_plaukta_saturu("specuni.png", "Spec Universālā 1kg", "3.50"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 215, 134, "specfeeder.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 15.", "specfeeder.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 215, 134, "specfeeder.png", lambda: paradit_plaukta_saturu("specfeeder.png", "Spec Feeder 1kg", "3.50"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 280, 134, "specbrek.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 17.", "specbrek.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 280, 134, "specbrek.png", lambda: paradit_plaukta_saturu("specbrek.png", "Spec Breksis 1kg", "3.50"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 75, 205, "universala750.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 22.", "universala750.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 75, 205, "universala750.png", lambda: paradit_plaukta_saturu("universala750.png", "Universālā 750g", "2.00"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 129, 205, "karpa750.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 23.", "karpa750.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 129, 205, "karpa750.png", lambda: paradit_plaukta_saturu("karpa750.png", "Karpa 750g", "2.00"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 183, 205, "feeder750.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 24.", "feeder750.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 183, 205, "feeder750.png", lambda: paradit_plaukta_saturu("feeder750.png", "Feeder 750g", "2.00"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 235, 205,  "linkar750.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 25.", "linkar750.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 235, 205,  "linkar750.png", lambda: paradit_plaukta_saturu("linkar750.png", "Līnis-Karūsa 750g", "2.00"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 290, 205, "breksis750.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 26.", "breksis750.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 290, 205, "breksis750.png", lambda: paradit_plaukta_saturu("breksis750.png", "Breksis 750g", "2.00"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 73, 266, "waftersource.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 31.", "waftersource.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 73, 266, "waftersource.png", lambda: paradit_plaukta_saturu("waftersource.png", " Vafteri Source 15mm", "6.00"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 119, 266, "waftertignut.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 32.", "waftertignut.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 119, 266, "waftertignut.png", lambda: paradit_plaukta_saturu("waftertignut.png", "Vafteri TigNut 15mm", "7.50"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 163, 266, "naktstarpi.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 33.", "naktstarpi.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 163, 266, "naktstarpi.png", lambda: paradit_plaukta_saturu("naktstarpi.png", "Nakstārpi", "4.50"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 210, 266, "graudumix.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 34.", "graudumix.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 210, 266, "graudumix.png", lambda: paradit_plaukta_saturu("graudumix.png", "Graudu Mix 500g", "3.50"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 251, 266, "fluomix.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 35.", "fluomix.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 251, 266, "fluomix.png", lambda: paradit_plaukta_saturu("fluomix.png", "Piedeva FluoMix 400g", "4.90"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 294, 266, "fluozala.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 36.", "fluozala.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 294, 266, "fluozala.png", lambda: paradit_plaukta_saturu("fluozala.png", "Piedeva FluoZaļ 400g", "5.70"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 72, 326, "kukuruza.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 41.", "kukuruza.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 72, 326, "kukuruza.png", lambda: paradit_plaukta_saturu("kukuruza.png", "Kukurūza 212ml", "4.00"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 103, 326, "melase.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 42.", "melase.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 103, 326, "melase.png", lambda: paradit_plaukta_saturu("melase.png", "Melase Breksis 350g", "2.90"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 132, 326, "nr4.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 43.", "nr4.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 132, 326, "nr4.png", lambda: paradit_plaukta_saturu("nr4.png", "Sliekas Nr.4", "2.00"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 161, 326, "nr4.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 44.", "nr4.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 161, 326, "nr4.png", lambda: paradit_plaukta_saturu("nr4.png", "Sliekas Nr.4", "2.00"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 190, 326, "nr4.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 45.", "nr4.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 190, 326, "nr4.png", lambda: paradit_plaukta_saturu("nr4.png", "Sliekas Nr.4", "2.00"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 220, 326, "nr3.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 46.", "nr3.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 220, 326, "nr3.png", lambda: paradit_plaukta_saturu("nr3.png", "Sliekas Nr.3", "2.00"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 247, 326, "nr3.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 47.", "nr3.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 247, 326, "nr3.png", lambda: paradit_plaukta_saturu("nr3.png", "Sliekas Nr.3", "2.00"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 278, 326, "nr3.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 48.", "nr3.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 278, 326, "nr3.png", lambda: paradit_plaukta_saturu("nr3.png", "Sliekas Nr.3", "2.00"))
 
-izveidot_attelu_pogu2(tirdzniecibas_skats, 309, 326, "nr3.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 49.", "nr3.png"))
+izveidot_attelu_pogu2(tirdzniecibas_skats, 309, 326, "nr3.png", lambda: paradit_plaukta_saturu("nr3.png", "Sliekas Nr.3", "2.00"))
 
 izveidot_attelu_pogu3(tirdzniecibas_skats, 72, 375, "baltie.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 51.", "baltie.png"))
 
