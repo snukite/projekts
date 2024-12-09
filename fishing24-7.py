@@ -91,7 +91,7 @@ tirdzniecibas_attels_label = tk.Label(tirdzniecibas_skats, image=tirdzniecibas_p
 tirdzniecibas_attels_label.image = tirdzniecibas_photo
 tirdzniecibas_attels_label.place(x=20, y=30) 
 
-def paradit_plaukta_saturu(teksts, attels_path):
+def paradit_plaukta_saturu(attels_path, nosaukums, cena):
     
     tirdzniecibas_skats.pack_forget()
 
@@ -107,11 +107,17 @@ def paradit_plaukta_saturu(teksts, attels_path):
     attels_label.image = attels_photo
     attels_label.pack(side="left", padx=20)
 
-    plaukta_teksts = tk.Label(plaukta_frame, text=teksts, font=("Verdana", 14), fg="#b90843", bg="#c0d099", wraplength=600, justify="left")
-    plaukta_teksts.pack(side="right")
+    informacija_frame = tk.Frame(plaukta_frame, bg="#c0d099")
+    informacija_frame.pack(side="left", padx=20)
 
-    atpakal_poga = tk.Button(plaukta_skats, text="Atpakaļ", font=("Verdana", 14), fg="#b90843", bg="white", borderwidth=0, command=lambda: [plaukta_skats.pack_forget(), tirdzniecibas_skats.pack(fill='both', expand=True)])
-    atpakal_poga.pack(pady=20)
+    nosaukums_label = tk.Label(informacija_frame, text=nosaukums, font=("Verdana", 24, "bold"), fg="#b90843", bg="#c0d099")
+    nosaukums_label.pack(anchor="w")
+
+    cena_label = tk.Label(informacija_frame, text=f"Cena: {cena}€", font=("Verdana", 18), fg="#b90843", bg="#c0d099")
+    cena_label.pack(anchor="w", pady=50)
+
+    atpakal_poga = tk.Button(plaukta_skats, text="Atpakaļ", font=("Verdana", 16), fg="#b90843", bg="white", borderwidth=0, command=lambda: [plaukta_skats.pack_forget(), tirdzniecibas_skats.pack(fill='both', expand=True)])
+    atpakal_poga.place(x=1000, y=620)
 
 def izveidot_attelu_pogu(skats, x, y, attela_nosaukums, komanda):
     original_image = Image.open(attela_nosaukums)
@@ -137,13 +143,13 @@ def izveidot_attelu_pogu3(skats, x, y, attela_nosaukums, komanda):
     poga.image = button_image  
     poga.place(x=x, y=y)
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 85, 75, "bigcarp_kuku.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 1.", "bigcarp_kuku.png", "bigcarp_kuku.png", "Big Carp Kukurūza", "4.00"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 85, 75, "bigcarp_kuku.png", lambda: paradit_plaukta_saturu("bigcarp_kuku.png", "Big Carp Kukurūza", "4.00"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 150, 75, "bigcarp_zem.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 3.", "bigcarp_zem.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 150, 75, "bigcarp_zem.png", lambda: paradit_plaukta_saturu("bigcarp_zem.png", "BigCarp Zemene 1kg", "4.00"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 215, 75, "sekrbreksis.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 5.", "sekrbreksis.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 215, 75, "sekrbreksis.png", lambda: paradit_plaukta_saturu("sekrbreksis.png", "Sekr Breksis Melns 1kg", "3.90"))
 
-izveidot_attelu_pogu(tirdzniecibas_skats, 280, 75, "sekrlinkar.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 7.", "sekrlinkar.png"))
+izveidot_attelu_pogu(tirdzniecibas_skats, 280, 75, "sekrlinkar.png", lambda: paradit_plaukta_saturu("sekrlinkar.png", "Sekr LīnKar Marc 1kg", "3.90"))
 
 izveidot_attelu_pogu(tirdzniecibas_skats, 85, 134, "speclinkar.png", lambda: paradit_plaukta_saturu("Šeit ir informācija par Plauktu 11.", "speclinkar.png"))
 
