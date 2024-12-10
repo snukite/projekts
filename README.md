@@ -1,3 +1,4 @@
 # projekts
 Programmēšanas projekts tirdzniecības automātiem.
-Šeit tiks papildināta informācija par projektu.
+Projekta veidošanai tika patērētas 9 dienas.
+Visas datnes ir izmitinātas šeit!
